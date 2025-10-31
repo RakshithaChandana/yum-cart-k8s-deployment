@@ -22,6 +22,7 @@ It is integrated with **ArgoCD** for GitOps-based continuous deployment and **Pr
 
 ## 🧭 End-to-End DevOps Pipeline
 
+```
 Developer
    │
    ▼
@@ -29,7 +30,7 @@ GitHub  ───►  Jenkins (CI/CD)
               │
               ▼
           DockerHub  ───►  ArgoCD  ───►  Kubernetes Cluster  ───►  Prometheus & Grafana
-  
+```
 
 ---
 
