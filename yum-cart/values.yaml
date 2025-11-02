@@ -165,10 +165,10 @@ tolerations: []
 affinity: {}
 
 secret:
-  DB_USER: "root"
-  DB_PASSWORD: "password123"
-  DB_NAME: "yumcartdb"
-  DB_HOST: "mysql-service"
+  DB_USER: cm9vdA==
+  DB_PASSWORD: cGFzc3dvcmQxMjM=
+  DB_NAME: eXVtY2FydGRi
+  DB_HOST: bXlzcWwtc2VydmljZQ==
 
 config:
   APP_ENV: "production"
