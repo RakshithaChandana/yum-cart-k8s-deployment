@@ -68,7 +68,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: af207350f143346e8bb4dd8cecdfcac1-1582343971.us-east-1.elb.amazonaws.com
+    - host: yumcart.example.com
       paths:
         - path: /
           pathType: Prefix
